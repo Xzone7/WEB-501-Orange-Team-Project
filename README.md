@@ -18,4 +18,4 @@ TODO: add env config...
 
 ## Development Guide
 
-We are using [Notion] for sprint and scrum
+We are using [Notion](https://chalk-wandflower-f6d.notion.site/287bdc789c3d481c8cc22cfcf2c5b254?v=5e9d58684d9f4015b326bdb16db1ef7f) for sprint and scrum and Slack for team daily communication.
