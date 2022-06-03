@@ -14,4 +14,8 @@ TODO: add env config...
 ```
 
 ## Branches
-* `main`
+* `main` is deployed for final submission
+
+## Development Guide
+
+We are using [Notion] for sprint and scrum
