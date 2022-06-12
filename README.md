@@ -18,7 +18,7 @@ npm install
 Use the `Live Server` extension from VS code to start the app, If you want to run the demo with lite-server:
 
 ```
-npm run lite 
+npm start
 ```
 
 To view demo, navigate to `http://localhost:3000`
