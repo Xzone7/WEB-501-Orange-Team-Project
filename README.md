@@ -9,12 +9,14 @@ Frontend project repository for orange team
 > You can find project mock & resources here [Project-1 Mock Ups & Recources](https://drive.google.com/drive/u/3/folders/1ezLS4xJoTKwvsqpbC_oKUuIGWwwJQZIY)
 
 ## Installation
+
 ```
 TODO: add env config...
 ```
 
 ## Branches
-* `main` is deployed for final submission
+
+- `main` is deployed for final submission
 
 ## Development Guide
 

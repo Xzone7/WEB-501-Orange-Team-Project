@@ -1,0 +1,5 @@
+# Ignore artifacts:
+bs-config.json
+package-lock.json
+package.json
+README.md
