@@ -1,0 +1,26 @@
+{
+  "name": "web-501-orange-team-project",
+  "version": "1.0.0",
+  "description": "frontend project -- Splash",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xzone7/WEB-501-Orange-Team-Project.git"
+  },
+  "author": "Miao Shi, Vibhuti Trivedi, Jordan VonBorstel, Xu Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xzone7/WEB-501-Orange-Team-Project/issues"
+  },
+  "homepage": "https://github.com/Xzone7/WEB-501-Orange-Team-Project#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "prettier": "^2.6.2"
+  }
+}
