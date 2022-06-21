@@ -3,4 +3,157 @@
 @import url(//fonts.googleapis.com/css?family=Snowburst+One);
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
+/* COLORS VARIABLE */
+:root {
+  --blue: #03b1f4;
+  --white: #ffffff;
+  --light-grey: #e4e4e4;
+  --black: #1a2e38;
+  --dark-grey: #444444;
+  --grey: #757576;
+}
 /* Page Style Starts Here */
+
+/* Global CSS Starts Here*/
+.shadow-text {
+  text-shadow: 1px 1px 2px var(--dark-grey);
+}
+strong {
+  font-weight: bolder;
+}
+body {
+  color: var(--black);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-family: "Bodoni Moda";
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Bodoni Moda";
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Bodoni Moda";
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: "Bodoni Moda";
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.decorative {
+  font-family: "Henny Penny";
+}
+
+button {
+  border: none;
+}
+
+.btn {
+  border-radius: 2em;
+  font-weight: bold;
+  width: max-content;
+  padding-block: 1em;
+  padding-inline: 1.5em;
+}
+
+.btn.btn-primary {
+  background-color: var(--blue);
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+}
+
+.btn.btn-secondary {
+  background: var(--white);
+  color: var(--blue);
+  border: 1px solid white;
+}
+
+/* Global CSS Ends Here */
+
+/* Home CSS */
+#home a {
+  color: inherit;
+}
+.banner-image {
+  object-fit: cover;
+}
+
+.banner-wrapper {
+  position: relative;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splashes-offer ul li {
+  color: var(--dark-grey);
+}
+
+/* Home >> Awards */
+.awards {
+  list-style-type: none;
+}
+
+/* Contact Page Starts*/
+
+#contact .contact-options-section {
+  max-width: 1024px;
+}
+#contact .contact-option {
+  width: 200px;
+  height: 200px;
+}
+#contact .contact-options .card {
+  width: inherit;
+  height: inherit;
+}
+
+.card-body {
+  width: inherit;
+}
+#contact .contact-options .contact-option img {
+  object-fit: contain;
+  padding: 1em;
+}
+
+/* Contact Page Ends*/
+
+/* MEDIA QUERIES */
+
+/* Tablet & Desktop */
+@media screen and (min-width: 578) {
+  .banner-image {
+    height: 100vh;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 577px) {
+  .banner-image {
+    height: 40vh;
+  }
+}
