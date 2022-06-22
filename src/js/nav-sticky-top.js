@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
   /* home redirection on logo click */
-  $(".splash-site-header .nav-logo").click(function() {
+  $(".splash-site-header .nav-logo").click(function () {
     window.open("/index.html", "_self");
   });
 });
