@@ -31,6 +31,51 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body id="contact">
+    <!-- Sticky top -->
+    <header class="splash-site-header sticky-top">
+      <nav class="navbar navbar-expand-md">
+        <div class="navbar-brand nav-logo">
+          <img src="./images/logo-small.png" alt="log-small" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon collapse-svg"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-around" id="navbarContent">
+          <ul class="navbar-nav nav-container">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Swimming Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Swim Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Adult Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Locations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./contact.html">Contact US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-secondary login" href="#">Register/Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
     <!-- Home Banner -->
     <div class="container-fluid banner-wrapper p-0">
       <img class="w-100 banner-image" src="./images/contact-hero.jpeg" alt="Contact Banner" />
@@ -57,6 +102,14 @@
       </div>
     </section>
   </body>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Nav bar js -->
+  <script src="./js/nav-sticky-top.js"></script>
 
   <!-- Additional JS -->
   <script src="./js/contact-options.js"></script>
