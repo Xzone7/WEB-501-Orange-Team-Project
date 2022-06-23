@@ -13,12 +13,6 @@
   --grey: #757576;
 }
 /* Page Style Starts Here */
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
-
 /* Global CSS Starts Here*/
 .shadow-text {
   text-shadow: 1px 1px 2px var(--dark-grey);
@@ -97,10 +91,6 @@ button {
   color: var(--white);
   border: var(--blue);
 }
-
-<<<<<<< Updated upstream
-=======
-
 
 
 /*Footer Css*/ 
@@ -228,8 +218,6 @@ h6 {
 }
 
 
-
-
 @media (max-width: 576px) {
   footer { 
     min-height: 600px;
@@ -270,11 +258,6 @@ h6 {
 }
 
 
-
-
-
-
->>>>>>> Stashed changes
 /* Global CSS Ends Here */
 
 /* Nav Bar */
@@ -367,8 +350,7 @@ h6 {
 .awards {
   list-style-type: none;
 }
-<<<<<<< Updated upstream
-=======
+
 /* Home End */
 
 /* Swim lessons Page Start */ 
@@ -416,7 +398,6 @@ h6 {
 
 /* Swim Program Page End */ 
 
->>>>>>> Stashed changes
 
 /* Contact Page Starts*/
 
@@ -457,7 +438,3 @@ h6 {
     height: 40vh;
   }
 }
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
