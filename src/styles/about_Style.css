@@ -1,0 +1,68 @@
+@import url(//fonts.googleapis.com/css?family=Bodoni+Moda);
+@import url(//fonts.googleapis.com/css?family=Henny+Penny);
+@import url(//fonts.googleapis.com/css?family=Snowburst+One);
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+/* Page Style Starts Here */
+
+h1 {
+    font-family: sans-serif; /* Need to confirm  the font-family */
+    font-size: 48px;
+    text-align: center;
+    color: #1A2E38;
+}
+p {
+    font-family: sans-serif; /* Need to confirm  the font-family */
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 200px;
+    color: #1A2E38;
+}
+#about {
+    background: no-repeat white url(../images/about-us-hero.jpeg);
+    background-size: 100% 450px;
+}
+#about header {
+    height: 200px;
+}
+.headerClass {
+    color: white;
+    margin-top: 250px;
+}
+
+.philosophyP {
+    background: no-repeat white url(../images/about-our-philosophy-bg.jpeg);
+    background-size: 100% 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.goodJobP {
+    background: no-repeat white url(../images/about-we-do-a-pretty-good-job-bg.jpeg);
+    background-size: 100% 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+a {
+    display: block;
+    font-family: sans-serif; /* Need to confirm  the font-family */
+    font-size: 16px;
+    text-align: center;
+    padding-top: 50px;
+}
+.awardsDiv {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.awards {
+    /* padding-left: 12.5%; */
+    /* padding-right: 12.5%; */
+    text-align: center;
+}
+.awardsDiv .awards .award {
+    display: inline-block;
+    margin: 1em;
+}
+.awardsDiv .awards .award img {
+    width: 100%;
+    height: 100%;
+}

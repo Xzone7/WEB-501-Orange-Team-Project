@@ -1,0 +1,48 @@
+@import url(//fonts.googleapis.com/css?family=Bodoni+Moda);
+@import url(//fonts.googleapis.com/css?family=Henny+Penny);
+@import url(//fonts.googleapis.com/css?family=Snowburst+One);
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+/* Page Style Starts Here */
+
+h1 {
+    font-family: sans-serif; /* Need to confirm  the font-family */
+    font-size: 48px;
+    text-align: center;
+    color: #1A2E38;
+}
+p {
+    font-family: sans-serif; /* Need to confirm  the font-family */
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0px 200px;
+    color: #1A2E38;
+}
+#adult-programs {
+    background: no-repeat white url(../images/lap-swimming.jpeg);
+    background-size: 100% 450px;
+}
+#adult-programs header {
+    height: 200px;
+}
+.headerClass {
+    color: white;
+    margin-top: 250px;
+}
+.apSwimmingDiv{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.lapSwimmingLinkDiv {
+    padding: 0px 200px;
+}
+.lapSwimmingLinkDiv h3 {
+    font-weight: bold;
+}
+.lapSwimmingLinkDiv ul li {
+    list-style-type: none;
+    margin: 10px -40px 10px;
+}
+.lapSwimmingLinkDiv ul li a:link {
+    color: #03B1F4;
+}
