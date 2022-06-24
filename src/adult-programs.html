@@ -17,6 +17,8 @@
     <meta property="og:image" content="" /> -->
 
     <!-- TODO: link tag for CSS, Bootstrap, Icon... -->
+    <!-- Customer CSS -->
+    <link href="./styles/styles.css" rel="stylesheet" />
     <link href="./styles/adult-programs_Style.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link
@@ -24,6 +26,11 @@
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
+    />
+    <!-- Font-awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
 
     <!-- TODO: script tag for JQuery, Bootstrap... -->
@@ -37,53 +44,116 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body id="adult-programs">
+    <!-- Sticky top -->
+    <header class="splash-site-header sticky-top fixed-md-top">
+      <nav class="navbar navbar-expand-md">
+        <div class="navbar-brand nav-logo">
+          <img src="./images/logo-small.png" alt="log-small" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon collapse-svg"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-md-around position-relative"
+          id="navbarContent"
+        >
+          <ul class="navbar-nav nav-container">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./swim-lessons.html">Swimming Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./swim-programs.html">Swim Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./adult-programs.html">Adult Programs</a>
+            </li>
+            <li class="nav-item nav-location">
+              <div class="dropdown show position-static">
+                <a
+                  class="nav-link text-white dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Locations</a
+                >
+                <div class="dropdown-menu box-container" aria-labelledby="dropdownMenuLink">
+                  <div class="row">
+                    <div class="location-box col-md-3 col-6">
+                      <div>Orange County</div>
+                      <a href="#">Anaheim Hills @ LA Fitness</a>
+                      <a href="#">Huntington Beach</a>
+                      <a href="#">Irvine</a>
+                      <a href="#">Yorba Linda @ LA Fitness</a>
+                    </div>
+                    <div class="location-box col-md-3 col-6">
+                      <div>San Gabriel Valley</div>
+                      <a href="#">Alhambra-Fremont @ LA Fitness</a>
+                      <a href="#">Arcadia @ LA Fitness</a>
+                      <a href="#">Diamond Bar @ LA Fitness</a>
+                      <a href="#">Pasadena</a>
+                      <a href="#">West Covina @ LA Fitness</a>
+                    </div>
+                    <div class="location-box col-md-6 col-6">
+                      <div>Sillicon Valley</div>
+                      <a href="#">North San Jose @ City Sports Club</a>
+                      <a href="#">San Jose-Almaden @ City Sports Club</a>
+                      <a href="#">San Jose-Bascom</a>
+                      <a href="#">San Jose-Blossom Hill @ City Sports Club</a>
+                      <a href="#">Sunnyvale @ City Sports Club</a>
+                    </div>
+                    <div class="location-box col-md-3 col-6">
+                      <div>San Diego County</div>
+                      <a href="#">Carlsbad</a>
+                      <a href="#">Poway @ LA Fitness</a>
+                    </div>
+                    <div class="location-box col-md-3 col-6">
+                      <div>Los Angeles County</div>
+                      <a href="#">Culver City @ LA Fitness</a>
+                      <a href="#">Harbor City @ LA Fitness</a>
+                    </div>
+                    <div class="location-box col-md-6 col-6">
+                      <div>Alameda County</div>
+                      <a href="#">Hayward @ City Sports Club</a>
+                    </div>
+                    <div class="location-box col-md-6 col-6">
+                      <div>Orange County</div>
+                      <a href="#">San Francisco-20th Avenue @ City Sports</a>
+                      <a href="#">Club</a>
+                    </div>
+                    <div class="location-box col-md-6 col-6">
+                      <div>Denver</div>
+                      <a href="#">Highlands Ranch</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./contact.html">Contact US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-secondary login" href="#">Register / Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <!-- Wrap Container Area -->
     <div id="container">
-      <!-- Sticky top -->
-      <header class="splash-site-header sticky-top">
-        <nav class="navbar navbar-expand-md">
-          <div class="navbar-brand nav-logo">
-            <img src="./images/logo-small.png" alt="log-small" />
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarContent"
-            aria-controls="navbarContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon collapse-svg"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-md-around" id="navbarContent">
-            <ul class="navbar-nav nav-container">
-              <li class="nav-item active">
-                <a class="nav-link text-white" href="./about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Swimming Lessons</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Swim Programs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="./adult-programs.html">Adult Programs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Locations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="./contact.html">Contact US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-secondary login" href="#">Register/Sign In</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-
       <!-- Home Banner -->
       <div class="container-fluid banner-wrapper p-0">
         <img class="w-100 banner-image" src="./images/lap-swimming.jpeg" alt="Contact Banner" />
@@ -146,13 +216,120 @@
       <!-- Lap Swimming Link Content Area End -->
     </div>
     <!-- Wrap Container Area End -->
+    <!-- Footer -->
+    <footer class="splash-site-footer">
+      <div class="footer-logo">
+        <img src="./images/wave-small.png" alt="footer-logo" />
+      </div>
+
+      <div class="footer-part-one row mt-5">
+        <div class="col-md-6 col-12">
+          <nav class="navbar navbar-expand">
+            <ul class="navbar-nav nav-container">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <!-- target top location and open -->
+                <a class="nav-link" href="#">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Register / Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-6 col-12 icon-wrapper">
+          <a class="fa-stack" style="vertical-align: top; margin-left: 200px" href="#">
+            <i class="fa-solid fa-circle fa-stack-2x" style="color: #055e97"></i>
+            <i class="fa-brands fa-linkedin-in fa-stack-1x fa-inverse"></i>
+          </a>
+          <a class="fa-stack" style="vertical-align: top" href="#">
+            <i class="fa-solid fa-circle fa-stack-2x" style="color: #656667"></i>
+            <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
+          </a>
+          <a class="fa-stack" style="vertical-align: top" href="#">
+            <i class="fa-solid fa-circle fa-stack-2x" style="color: #27dffd"></i>
+            <i class="fa-brands fa-twitter fa-stack-1x fa-inverse"></i>
+          </a>
+          <a class="fa-stack" style="vertical-align: top" href="#">
+            <i class="fa-solid fa-circle fa-stack-2x" style="color: #cc0c24"></i>
+            <i class="fa-brands fa-yelp fa-stack-1x fa-inverse"></i>
+          </a>
+          <a class="fa-stack" style="vertical-align: top" href="#">
+            <i class="fa-solid fa-circle fa-stack-2x" style="color: #71b4fc"></i>
+            <i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i>
+          </a>
+          <a class="fa-stack" style="vertical-align: top" href="#">
+            <i class="fa-solid fa-circle fa-stack-2x" style="color: #cc0c24"></i>
+            <i class="fa-brands fa-youtube fa-stack-1x fa-inverse"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-contact-container">
+        <div class="footer-contact">
+          <div>
+            <div>Orange County</div>
+            <a href="tel:9494500777">(949) 450-0777</a>
+          </div>
+          <div>
+            <div>San Diego County</div>
+            <a href="tel:7606039400">(760) 603-9400</a>
+          </div>
+          <div>
+            <div>Los Angeles County</div>
+            <a href="tel:6268361200">(626) 836-1200</a>
+          </div>
+          <div>
+            <div>Northern California</div>
+            <a href="tel:4082791700">(408) 279-1700</a>
+          </div>
+          <div>
+            <div>Denver</div>
+            <a href="7203447700">(720) 344-7700</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="foot-part-two-container">
+        <div class="footer-part-two row">
+          <div class="col-sm-8 col-12 sponsors-logo">
+            <div>
+              <img src="./images/sponsors/footer-usssa-logo-2.png" alt="usssa-logo" />
+            </div>
+            <div>
+              <img src="./images/sponsors/footer-ndpa-logo.png" alt="ndpa-logo" />
+            </div>
+            <div>
+              <img src="./images/sponsors/footer-member-issa-logo.png" alt="issa-logo" />
+            </div>
+            <div>
+              <img src="./images/sponsors/footer-stop-drowning-now-logo.png" alt="stop-logo" />
+            </div>
+          </div>
+          <div class="col-sm-4 col-12 copyright">
+            © 2022 Splashes.<br />
+            All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JS file -->
+
+    <!-- Nav bar js -->
+    <script src="./js/nav-sticky-top.js"></script>
+
+    <!-- Additional JS -->
+    <script src="./js/contact-options.js"></script>
   </body>
-
-  <!-- JS file -->
-
-  <!-- Nav bar js -->
-  <script src="./js/nav-sticky-top.js"></script>
-
-  <!-- Additional JS -->
-  <script src="./js/contact-options.js"></script>
 </html>
