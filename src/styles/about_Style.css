@@ -189,38 +189,38 @@ button {
 /* Page Style Starts Here */
 
 .philosophyP {
-    background: no-repeat white url(../images/about-our-philosophy-bg.jpeg);
-    background-size: 100% 100%;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  background: no-repeat white url(../images/about-our-philosophy-bg.jpeg);
+  background-size: 100% 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .goodJobP {
-    background: no-repeat white url(../images/about-we-do-a-pretty-good-job-bg.jpeg);
-    background-size: 100% 100%;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  background: no-repeat white url(../images/about-we-do-a-pretty-good-job-bg.jpeg);
+  background-size: 100% 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 a {
-    display: block;
-    font-family: sans-serif; /* Need to confirm  the font-family */
-    font-size: 16px;
-    text-align: center;
-    padding-top: 50px;
+  display: block;
+  font-family: sans-serif; /* Need to confirm  the font-family */
+  font-size: 16px;
+  text-align: center;
+  padding-top: 50px;
 }
 .awardsDiv {
-    padding-top: 80px;
-    padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .awards {
-    /* padding-left: 12.5%; */
-    /* padding-right: 12.5%; */
-    text-align: center;
+  /* padding-left: 12.5%; */
+  /* padding-right: 12.5%; */
+  text-align: center;
 }
 .awardsDiv .awards .award {
-    display: inline-block;
-    margin: 1em;
+  display: inline-block;
+  margin: 1em;
 }
 .awardsDiv .awards .award img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }

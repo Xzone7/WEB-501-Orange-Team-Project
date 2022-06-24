@@ -92,8 +92,6 @@ button {
   border: var(--blue);
 }
 
-
-
 /* Global CSS Ends Here */
 
 /* Nav Bar */
@@ -189,9 +187,9 @@ button {
 
 /* Home End */
 
-/* Swim lessons Page Start */ 
+/* Swim lessons Page Start */
 
-#lessonsBody { 
+#lessonsBody {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 5%;
@@ -202,8 +200,8 @@ button {
 /* Swim Lessons Page End
 
 
-/*Swim Program Page Start*/ 
-#swimProgramBody { 
+/*Swim Program Page Start*/
+#swimProgramBody {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 5%;
@@ -211,29 +209,28 @@ button {
   line-height: 2em;
 }
 
-@media (width: 768px) { 
-  #bannerLessons { 
-    position:relative;
+@media (width: 768px) {
+  #bannerLessons {
+    position: relative;
     height: 500px;
   }
-  h1 { 
+  h1 {
     padding-top: 100px;
   }
 }
 
-@media (width: 576px) { 
-  h1 { 
+@media (width: 576px) {
+  h1 {
     font-size: 35px;
   }
 
-  h3 { 
-    font-size: 65px!important;
+  h3 {
+    font-size: 65px !important;
     padding-top: 100px;
   }
 }
 
-/* Swim Program Page End */ 
-
+/* Swim Program Page End */
 
 /* Contact Page Starts*/
 
