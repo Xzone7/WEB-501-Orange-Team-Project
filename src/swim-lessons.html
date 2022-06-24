@@ -7,7 +7,7 @@
     <meta name="author" content="Miao Shi, Vibhuti Trivedi, Jordan VonBorstel, Xu Chen" />
 
     <!-- TODO -->
-    <title></title>
+    <title>Swim Lessons</title>
 
     <!-- TODO: SEO enhancement -->
     <!-- <meta property="og:title" content="" />
@@ -16,10 +16,183 @@
     <meta property="og:description" content="Splash frontend project." />
     <meta property="og:image" content="" /> -->
 
+ <!-- Latest compiled and minified CSS -->
+ <link
+ href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+ rel="stylesheet"
+/>
+
     <!-- TODO: link tag for CSS, Bootstrap, Icon... -->
     <link href="./styles/styles.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- TODO: script tag for JQuery, Bootstrap... -->
   </head>
-  <body></body>
+  <body>
+
+    <!-- Sticky top -->
+    <header class="splash-site-header sticky-top fixed-md-top">
+      <nav class="navbar navbar-expand-md">
+        <div class="navbar-brand nav-logo">
+          <img src="./images/logo-small.png" alt="log-small" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon collapse-svg"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-around" id="navbarContent">
+          <ul class="navbar-nav nav-container">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="swim-lessons.html">Swimming Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="swim-programs.html">Swim Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Adult Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Locations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./contact.html">Contact US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-secondary login" href="#">Register/Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid banner-wrapper p-0">
+      <img id="bannerLessons" class=" w-100 banner-image" src="./images/which-lesson-is-best.jpeg" alt="Home Banner" />
+      <div class="centered text-white text-center w-100">
+        <h3 class="px-1 d-block d-md-none">Which Lesson is Best?</h3>
+        <h1 id="whichLesson" class="px-1 d-none d-md-block w-50 m-auto" style="font-size:550%">
+          Which Lesson is Best?
+        </h1>
+      </div>
+    </div>
+<!-- Body Text -->
+<section> 
+<h1 style="text-align: center; margin-top: 3%;"> Our Lesson Types </h1>
+
+<p id="lessonsBody"> <strong> Private Swim Lessons </strong><br>
+  Our <a href="...">private swim lessons</a> provide one-on-one instruction for students ages three months through adult. Private swim lessons are the best option for accelerated learning. Each lesson will allow our instructors to build on the momentum and skills taught in the previous lesson with minimal downtime. From the basics of putting your face into the water to refining your stroke technique, private lessons will offer the highest rate of progress. 
+  <br><a href="...">Learn more here!</a></p>
+
+<p id="lessonsBody"> <strong>Swim Lessons</strong><br>
+  At Splashes, our <a href="...">semi-private swim lessons</a> offer students ages 2.5 to 13 the opportunity to interact with another student of a similar age and ability while still receiving personal attention. Whether you would like us to pair your child with another student of similar age and ability or would like to take lessons with a friend or sibling, our semi-private lessons are a cost effective option. Students also have the opportunity to observe one another in the lesson. 
+  <br><a href="...">Learn more here!</a></p>
+
+  <p id="lessonsBody"> <strong>Parent & Me Lessons</strong><br>
+    Our <a href="...">Parent and Me swimming lessons </a> (also known as “Mommy and Me” or “Daddy and Me” classes) gives parents the opportunity to be hands-on with their little one while our instructors facilitate the learning process between you and your child. These lessons provide a fun and relaxed environment for you and your child in the water. Children ages 3 months through 3 years of age can participate. However, we encourage children ages 2.5 and older to participate in private or semi-private swim lessons. 
+    <br><a href="...">Learn more here!</a></p>
+
+  <p id="lessonsBody"> <strong>Stroke Clinic</strong><br>
+    Splashes <a href="...">Stroke Clinics</a> give students the opportunity to advance their swimming techniques while in a group setting. Our Stroke Clinic classes place emphasis on proper technique over speed and prepare students for swim team. 
+    Swimmers ages 5 and older who are level 8 or higher can benefit from participating in these 40 minute classes. A strong technical foundation will ensure that students’ progress much faster when the time comes for them to work on speed. Our stroke clinics are exciting and fast paced, where each student will receive a great workout.
+    <br><a href="...">Learn more here!</a></p>
+
+  <p id="lessonsBody" style="margin-bottom: 5%;"> <strong>Adult Swim Lessons</strong><br>
+    It is never too late to learn how to swim! Whether you are looking to learn the basics or improve your technique to use swimming as a form of exercise, our trained instructors will tailor each lesson to fit your individual needs. At Splashes, our adult lessons are geared for swimmers ages 13 and older. From beginners to advanced, our <a href="...">adult swimming lessons</a> are a great option for those looking to conquer their fear of the water or who are looking to become stronger swimmers. 
+    <br><a href="...">Learn more here!</a></p>
+</section>
+</body>
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted container-fluid" id="site-footer">
+  
+  <!-- Section: Social media -->
+  
+  <div id="footer-logo">
+    <img src="images/wave-small.png">
+  </div>
+
+  <section id="footerSection"
+    class="d-flex justify-content-center justify-content-lg-between  border-bottom border-dark container-fluid"
+  >
+    <!-- Footer Nav-bar Left -->
+    <div class="d-inline-flex" id="navBarFooter">
+      <p id="navbarFooter"><a href=... style="color: black">About</a></p>
+      <p id="navbarFooter"><a href=... style="color: black">Location</a></p>
+      <p id="navbarFooter"><a href=... style="color: black">FAQs</a></p>
+      <p id="navbarFooter"><a href=... style="color: black">Contact</a></p>
+      <p id="navbarFooter"><a href=... style="color: black">Register / Sign in</a></p>
+      <p id="navbarFooter"><a href=... style="color: black">Careers</a></p>
+    </div>
+    <!-- End Footer Nav-bar Left -->
+
+    <!-- logo's Right -->
+    <section class="mb-4">
+      <!-- Indeed Logo -->
+      <a
+         class="btn btn-primary btn-floating m-1"
+         style="background-color: #3b5998;"
+         href="#!"
+         role="button"
+         ><i class="fab fa-search fa-linkedin-in"></i
+        ></a>
+
+      <!-- Instagram logo -->
+      <a
+         class="btn btn-primary btn-floating m-1"
+         style="background-color: #505050;"
+         href="#!"
+         role="button"
+         ><i class="fab fa-instagram"></i
+        ></a>
+
+      <!-- Twitter Logo -->
+      <a
+         class="btn btn-primary btn-floating m-1"
+         style="background-color: #00d5ff;"
+         href="#!"
+         role="button"
+         ><i class="fab fa-twitter"></i
+        ></a>
+
+      <!-- Yelp Logo -->
+      <a
+         class="btn btn-primary btn-floating m-1"
+         style="background-color: #c12a2a;"
+         href="#!"
+         role="button"
+         ><i class="fab fa-yelp"></i
+        ></a>
+
+      <!-- Facebook Logo -->
+      <a
+         class="btn btn-primary btn-floating m-1"
+         style="background-color: #0082ca;"
+         href="#!"
+         role="button"
+         ><i class="fab fa-facebook-f"></i
+        ></a>
+      <!-- YouTube Logo -->
+      <a
+         class="btn btn-primary btn-floating m-1 p-3"
+         style="background-color: #cd2828; border-radius: 50%;"
+         href="#!"
+         role="button"
+         ><i class="fab fa-youtube" aria-hidden="true"></i>
+        </a>
+    </section>
+    <!-- End Logo's Right -->
+  </section>
+  
+
+
+
 </html>
