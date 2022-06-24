@@ -188,20 +188,20 @@ button {
 
 /* Page Style Starts Here */
 
-.apSwimmingDiv{
-    padding-top: 80px;
-    padding-bottom: 80px;
+.apSwimmingDiv {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .lapSwimmingLinkDiv {
-    padding: 0px 200px;
+  padding: 0px 200px;
 }
 .lapSwimmingLinkDiv h3 {
-    font-weight: bold;
+  font-weight: bold;
 }
 .lapSwimmingLinkDiv ul li {
-    list-style-type: none;
-    margin: 10px -40px 10px;
+  list-style-type: none;
+  margin: 10px -40px 10px;
 }
 .lapSwimmingLinkDiv ul li a:link {
-    color: #03B1F4;
+  color: #03b1f4;
 }
