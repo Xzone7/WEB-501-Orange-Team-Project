@@ -38,13 +38,13 @@ npm run prettier
 We are using [Notion](https://chalk-wandflower-f6d.notion.site/287bdc789c3d481c8cc22cfcf2c5b254?v=5e9d58684d9f4015b326bdb16db1ef7f) for sprint and scrum and Slack for team daily communication.
 
 ## Requirements Checklist
-- [ ] Contents that contain headings, paragraphs, lists, hypertext links and images.
-- [ ] ALL page contents markup with HTML elements. Evidence of HTML comments used.
+- [x] Contents that contain headings, paragraphs, lists, hypertext links and images.
+- [x] ALL page contents markup with HTML elements. Evidence of HTML comments used.
 - [ ] Minimum 1 HTML table to display tabular data.
 - [ ] Minimum 1 HTML form with a button to submit the form.
-- [ ] Page layout and contents styled with CSS3.
-- [ ] Integrated with JavaScript interactions and behaviors.
-- [ ] Minimum 2 jQuery library components with Ajax feature in one of the components.
-- [ ] Use Bootstrap's classes and components throughout.
+- [x] Page layout and contents styled with CSS3.
+- [x] Integrated with JavaScript interactions and behaviors.
+- [x] Minimum 2 jQuery library components with Ajax feature in one of the components.
+- [x] Use Bootstrap's classes and components throughout.
 - [ ] Featured a simple VUE component within the site.
-- [ ] Push project to GitHub.
+- [x] Push project to GitHub.
