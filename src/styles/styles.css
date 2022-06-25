@@ -89,7 +89,6 @@ button {
 .btn.btn.btn-secondary:hover {
   background-color: var(--blue);
   color: var(--white);
-  border: var(--blue);
 }
 
 /* Global CSS Ends Here */
@@ -215,6 +214,110 @@ button {
   }
 }
 
+/* Login Modal */
+.splash-login-modal .modal-content {
+  border-radius: calc(0.3rem - 1px);
+}
+
+.splash-login-modal input {
+  background-color: #eeeeee;
+}
+
+.splash-login-modal label {
+  color: #ff375b;
+}
+
+.splash-login-modal .login-form-container {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+  padding: 2.5em 3em;
+  width: 70%;
+  margin: 30px auto 60px auto;
+  position: relative;
+}
+
+.splash-login-modal .splash-wave {
+  display: block;
+  margin: auto;
+}
+
+.splash-login-modal .login-form-container h2 {
+  text-align: center;
+  font-family: "Open Sans", serif;
+  font-weight: 500;
+}
+
+.splash-login-modal input[name="email"] {
+  margin-bottom: 22px;
+}
+
+.splash-login-modal .forgot-password {
+  display: block;
+  text-align: right;
+  text-decoration: underline;
+  color: #03b1f4;
+  margin-top: 22px;
+  font-size: 14px;
+}
+
+.splash-login-modal .buttons {
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.splash-login-modal .buttons button {
+  width: 47%;
+  text-transform: none;
+  font-weight: 500;
+  padding: 7px;
+}
+
+.splash-login-modal .buttons .btn-primary {
+  background-color: rgba(3, 177, 244, 0.3);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.splash-login-modal .buttons .btn-secondary {
+  border: 2px solid #03b1f4;
+  background-color: #f6f6f6;
+}
+
+.splash-login-modal form {
+  margin-top: 15px;
+}
+
+.splash-login-modal .shark-full {
+  position: absolute;
+  top: -32px;
+  left: -97px;
+}
+
+@media (min-width: 768px) {
+  .splash-login-modal .modal-dialog {
+    max-width: 1000px;
+    margin: 10rem auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .splash-login-modal .modal-dialog {
+    max-width: 100%;
+    margin: 10rem auto;
+  }
+
+  .splash-login-modal .buttons {
+    flex-direction: column;
+  }
+
+  .splash-login-modal .buttons button:first-child {
+    margin-bottom: 10px;
+  }
+
+  .splash-login-modal .buttons button {
+    width: 100%;
+  }
+}
+
 /* Home CSS */
 #home a {
   color: inherit;
@@ -314,6 +417,63 @@ button {
 }
 
 /* Contact Page Ends*/
+
+/* Adult-Programs */
+.apSwimmingDiv {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.lapSwimmingLinkDiv {
+  padding: 0px 200px;
+}
+.lapSwimmingLinkDiv h3 {
+  font-weight: bold;
+}
+.lapSwimmingLinkDiv ul li {
+  list-style-type: none;
+  margin: 10px -40px 10px;
+}
+.lapSwimmingLinkDiv ul li a:link {
+  color: #03b1f4;
+}
+
+/* About-Page */
+.philosophyP {
+  background: no-repeat white url(../images/about-our-philosophy-bg.jpeg);
+  background-size: 100% 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.goodJobP {
+  background: no-repeat white url(../images/about-we-do-a-pretty-good-job-bg.jpeg);
+  background-size: 100% 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#about #container a {
+  display: block;
+  font-family: sans-serif; /* Need to confirm  the font-family */
+  font-size: 16px;
+  text-align: center;
+  padding-top: 50px;
+}
+.awardsDiv {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.awards {
+  /* padding-left: 12.5%; */
+  /* padding-right: 12.5%; */
+  text-align: center;
+}
+.awardsDiv .awards .award {
+  display: inline-block;
+  margin: 1em;
+}
+.awardsDiv .awards .award img {
+  width: 100%;
+  height: 100%;
+}
 
 /* Footer */
 .splash-site-footer {
