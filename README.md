@@ -41,10 +41,10 @@ We are using [Notion](https://chalk-wandflower-f6d.notion.site/287bdc789c3d481c8
 - [x] Contents that contain headings, paragraphs, lists, hypertext links and images.
 - [x] ALL page contents markup with HTML elements. Evidence of HTML comments used.
 - [ ] Minimum 1 HTML table to display tabular data.
-- [ ] Minimum 1 HTML form with a button to submit the form.
+- [x] Minimum 1 HTML form with a button to submit the form.
 - [x] Page layout and contents styled with CSS3.
 - [x] Integrated with JavaScript interactions and behaviors.
 - [x] Minimum 2 jQuery library components with Ajax feature in one of the components.
 - [x] Use Bootstrap's classes and components throughout.
-- [ ] Featured a simple VUE component within the site.
+- [x] Featured a simple VUE component within the site.
 - [x] Push project to GitHub.
