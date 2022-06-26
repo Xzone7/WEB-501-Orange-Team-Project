@@ -59,6 +59,12 @@ new Vue({
       var signButton = document.getElementById("sign-in");
       signButton.style.backgroundColor = this.disableStyle.backgroundColor(this.isButtonDisabled);
       signButton.style.color = this.disableStyle.color(this.isButtonDisabled);
-    },
+    }
   },
+  components: {
+    "splash-image": {
+      props: ["path", "name", "suffix"],
+      template: "<img :src='path + name + suffix' :alt='name' :class='name' />"
+    }
+  }
 });
