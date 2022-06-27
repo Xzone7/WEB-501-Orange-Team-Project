@@ -30,7 +30,7 @@ body {
 h1 {
   font-family: "Bodoni Moda";
   font-size: 3em;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 h2 {
@@ -49,6 +49,9 @@ h4 {
   font-family: "Bodoni Moda";
   font-size: 1.3em;
   font-weight: bold;
+}
+a {
+  color: var(--blue);
 }
 
 body {
@@ -423,15 +426,27 @@ button {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.lapSwimmingLinkDiv {
-  padding: 0px 200px;
-}
 .lapSwimmingLinkDiv h3 {
   font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 10px;
+}
+.lapSwimmingDiv p {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  font-size: larger;
+  line-height: 2em;
 }
 .lapSwimmingLinkDiv ul li {
   list-style-type: none;
-  margin: 10px -40px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .lapSwimmingLinkDiv ul li a:link {
   color: #03b1f4;
@@ -444,11 +459,25 @@ button {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.philosophyP p {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2em;
+  font-size: larger;
+  line-height: 2em;
+}
 .goodJobP {
   background: no-repeat white url(../images/about-we-do-a-pretty-good-job-bg.jpeg);
   background-size: 100% 100%;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+.goodJobP p {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2em;
+  font-size: larger;
+  line-height: 2em;
 }
 #about #container a {
   display: block;
@@ -462,8 +491,8 @@ button {
   padding-bottom: 80px;
 }
 .awards {
-  /* padding-left: 12.5%; */
-  /* padding-right: 12.5%; */
+  padding-left: 12.5%;
+  padding-right: 12.5%;
   text-align: center;
 }
 .awardsDiv .awards .award {
